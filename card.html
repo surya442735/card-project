@@ -1,0 +1,110 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>card</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        width: 100vw;
+        height: 100vh;
+        background-color: #85ffbd;
+        background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .box {
+        width: 360px;
+        height: 500px;
+        border-radius: 10px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+      }
+      .box img {
+        width: 100%;
+        height: 30%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+      }
+      .box2 {
+        width: 300px;
+        height: 55px;
+        border-radius: 5px;
+        background-color: skyblue;
+        display: flex;
+        align-items: center;
+        margin: 10px;
+        padding: 10px;
+        justify-content: space-between;
+      }
+      .b1 img {
+        width: 25%;
+        height: 90%;
+      }
+      .b1 {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+      }
+      #b1{
+        background-color: black;
+        border-radius: 5px;
+        width: 300px;
+        height: 40px;
+        color: white;
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+        /* display: flex; */
+        /* align-items: center; */
+        /* justify-content: center; */
+      }
+      /* .box3 p {
+        color: white;
+      } */
+       .c1 a{
+        text-decoration: none;
+        color: black;
+        font-size: large;
+
+       }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <img src="th.jpg" alt="" />
+        <h2>Order Summary</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur <br />
+          adipisicinb elit.Libero corrupti minima <br />
+          quidem sit cumque veniam autem officia ex <br />
+          saepe iste.
+        </p>
+        <div class="box2">
+          <div class="b1">
+            <img src="th (1).jpg" alt="" />
+            <p>
+              <b>Amount <br />999.9$/year</b>
+            </p>
+          </div>
+          <a href="Change">Change</a>
+        </div>
+        <button id="b1">
+            Proceed to payment
+        </button>
+        <div class="c1">
+            <a href="#"><b>Cancel order</b></a>
+        </div>
+        
+      </div>
+    </div>
+  </body>
+</html>
